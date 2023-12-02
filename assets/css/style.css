@@ -25,6 +25,164 @@ font-family: 'Montserrat', sans-serif !important;
   color: #FFF; /* Change the icon color to your preference */
   text-decoration: none;
 }
+.container11 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #003F6B;
+  padding: 50px 150px;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border:  5px solid #555;
+  border-radius: 10px;
+}
+
+.container3 {
+  background: url('../../assets/img/csr/image_4.png') no-repeat center center;
+  background-size: cover;
+}
+.second{
+  background: url('../../assets/img/csr/Rectangle\ 36.png') no-repeat center center;
+  background-size: cover;
+}
+
+.new1{
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.img-fluid6{
+  border: 10px solid rgba(255,255,255,.4);
+}
+
+
+
+
+
+.sub-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px; 
+/* Adjust the margin between the main and sub-images */
+}
+.img-fluid1{
+  width: calc(25% - 15px);
+  margin: 5px;
+  border-radius: 10px;
+}
+.img-fluid4{
+  width: 100%;
+}
+
+
+/* Media Query for hiding images on mobile devices */
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+  .img-fluid1{
+    width: calc(100% - 15px);
+    margin: 5px;
+    border-radius: 10px;
+  }
+}
+.sub-images img {
+ /* Adjust the width of sub-images as needed */
+  height: auto;
+  margin: 0 10px; /* Adjust the margin between sub-images as needed */
+}
+.page2{
+  margin-top: 20px;
+  color: #000;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+
+.subhet{
+  color: #555;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+ 
+
+.container11 .content {
+  color: white;
+  font-size: 150px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+}
+
+.container11 .logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.container11 .vertical-line {
+  border-left: 2px solid white; /* You can change the color and width as needed */
+  height: 230px; /* Adjust the height of the line as needed */
+  margin: 0 10px;
+  padding: 10px; /* Optional padding to position the line */
+}
+
+.container11 .description1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 10px; /* Add margin to the top of the description */
+}
+@media (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+    padding: 50px 20px; /* Adjust padding for mobile view */
+  }
+}
+.subtitle{
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+}
+
+
+@media (max-width: 768px) {
+  .container11 {
+    flex-direction: column;
+    padding: 50px 20px; /* Adjust padding for mobile view */
+  }
+  
+
+  .container11 .vertical-line {
+    border-left: none; /* Remove vertical line in mobile view */
+    border-top: 2px solid white; /* Add horizontal line in mobile view */
+    width: 100%;
+    height: 10px; /* Adjust the height of the line in mobile view */
+    margin: 10px 0; /* Adjust margin in mobile view */
+    padding: 0; /* Remove padding in mobile view */
+  }
+}
+
 .tab_box{
   width: 400px;
   display: flex;
