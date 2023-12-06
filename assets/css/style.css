@@ -80,7 +80,32 @@ font-family: 'Montserrat', sans-serif !important;
 .img-fluid4{
   width: 100%;
 }
+.img-fluid7{
+  width: 100%;
+}
+.main-title{
+  font-size: 150px;
+  padding: 30px;
+}
+.imagesubtitle{
+  font-size: 50px;
 
+}
+.olcss{
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.olcss1{
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: justify;
+}
+@media (max-width: 600px) {
+  img {
+      max-width: 100%; /* Adjust the maximum width for smaller screens if necessary */
+  }
+}
 
 /* Media Query for hiding images on mobile devices */
 @media (max-width: 767px) {
@@ -91,6 +116,26 @@ font-family: 'Montserrat', sans-serif !important;
     width: calc(100% - 15px);
     margin: 5px;
     border-radius: 10px;
+  }
+  .img-fluid7{
+    margin-top: 30px;
+    width: 100%;
+  }
+  .main-title{
+    font-size: 120px;
+    padding: 10px;
+  }
+  .imagesubtitle{
+    font-size: 30px;
+  
+  }
+
+  .olcss{
+    text-align: justify;
+  }
+  .olcss1{
+   
+    text-align: justify;
   }
 }
 .sub-images img {
@@ -143,7 +188,7 @@ line-height: normal;
 .container11 .description1 {
   color: #FFF;
   font-family: Montserrat;
-  font-size: 30px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -155,6 +200,17 @@ line-height: normal;
     flex-direction: column;
     padding: 50px 20px; /* Adjust padding for mobile view */
   }
+  .first1{
+    text-align: center;
+  }
+  .subhet{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .page2{
+    font-size: 20px;
+    text-align: justify;
+  }
 }
 .subtitle{
   color: #000;
@@ -163,6 +219,7 @@ font-size: 30px;
 font-style: normal;
 font-weight: bold;
 line-height: normal;
+text-align: start;
 }
 
 
@@ -170,6 +227,10 @@ line-height: normal;
   .container11 {
     flex-direction: column;
     padding: 50px 20px; /* Adjust padding for mobile view */
+  }
+  .subtitle{
+    
+    font-size: 25px;
   }
   
 
@@ -778,6 +839,7 @@ section {
   padding-bottom: 0px;
 }
 
+
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -800,6 +862,12 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+@media (max-width: 767px) {
+ 
+  .section-title1{
+    margin-top: 90px;
+  }
 }
 
 /*--------------------------------------------------------------
